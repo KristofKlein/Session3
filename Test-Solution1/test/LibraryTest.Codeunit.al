@@ -17,7 +17,7 @@ codeunit 70100 "LibraryTest"
         // [WHEN] WhenCallingConvertToString 
         Result := myLibrary.NumberToString(myGivenNumber);
         // [THEN] ThenItGetsConverted 
-        // Assert.Arequal(Result, Expectedresult);
+        Assert.AreEqual(Result, Expectedresult, '');
     end;
 
     [Test]
@@ -35,7 +35,7 @@ codeunit 70100 "LibraryTest"
         // [WHEN] WhenCallingConvertToString 
         Result := myLibrary.NumberToString(myGivenNumber);
         // [THEN] ThenItGetsConverted 
-        // Assert.Arequal(Result, Expectedresult);
+        Assert.AreEqual(Result, Expectedresult, '');
     end;
 
     [Test]
@@ -53,7 +53,7 @@ codeunit 70100 "LibraryTest"
         // [WHEN] WhenCallingConvertToString 
         Result := myLibrary.NumberToString(myGivenNumber);
         // [THEN] ThenItGetsConverted 
-        // Assert.Arequal(Result, Expectedresult);
+        Assert.AreEqual(Result, Expectedresult, '');
     end;
 
     [Test]
@@ -71,9 +71,9 @@ codeunit 70100 "LibraryTest"
         // [WHEN] WhenCallingConvertToString 
         Result := myLibrary.NumberToString(myGivenNumber);
         // [THEN] ThenItGetsConvertedToError
-        // Assert.Arequal(Result, Expectedresult);
+        Assert.ExpectedError(Expectedresult);
     end;
 
     var
-    //Assert: Codeunit Assert;
+        Assert: Codeunit Assert;
 }
