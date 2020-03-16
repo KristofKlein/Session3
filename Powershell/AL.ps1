@@ -3,6 +3,7 @@ Write-Host '###### Update Nav Containerhelper! ######' -ForegroundColor Blue
 
 Write-Host '###### Create Container ######' -ForegroundColor Blue
 New-NavContainer -accept_eula `
+                 -accept_outdated `
                  -containerName 'ALGO' `
                  -imageName 'mcr.microsoft.com/businesscentral/onprem:15.2.39040.0-w1-ltsc2019' `
                  -updateHosts `
