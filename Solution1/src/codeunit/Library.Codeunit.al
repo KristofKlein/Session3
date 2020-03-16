@@ -12,15 +12,22 @@ codeunit 50110 "Library"
         Error(gDoNotRumERR);
     end;
 
+    /// <summary>
+    /// Convert an Integer to a String representation of it
+    /// </summary>
+    /// <param name="inputNum"></param>
+    /// <returns>the input as Text</returns>
     procedure NumberToString(inputNum: Integer): Text;
     begin
         Exit(_Implementation.NumberToString(inputNum));
     end;
 
+    /// <summary>
+    /// Returns the defined Error from the Implementation
+    /// </summary>
+    /// <returns>the Error Msg</returns>
     procedure GetErrorString(): Text;
     begin
         Exit(_Implementation.GetErrorString());
     end;
-
-
 }
