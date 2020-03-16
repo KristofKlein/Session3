@@ -18,7 +18,8 @@
 		"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
 		"CRS.OnSaveAlFileAction": "Reorganize",
 		// MS Stuff
-		"telemetry.enableTelemetry": false
+		"telemetry.enableTelemetry": false,
+		"al-test-runner.decorateTestMethods": false
 	},
 	"extensions": {"recommendations": ["andrzejzwierzchowski.al-code-outline", "martonsagi.al-object-designer","waldo.crs-al-language-extension","jamespearson.al-test-runner"]
 	}
