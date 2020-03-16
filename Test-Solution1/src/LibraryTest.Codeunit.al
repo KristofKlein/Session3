@@ -39,6 +39,24 @@ codeunit 70100 "LibraryTest"
     end;
 
     [Test]
+    procedure "GivenA6_WhenCallingConvertToString_ThenItGetsConvertedtoSix"()
+    var
+        myLibrary: Codeunit Library;
+        myGivenNumber: Integer;
+        Expectedresult: Text;
+        Result: Text;
+
+    begin
+        // [GIVEN] GivenAnIntegerbetween0and10 
+        myGivenNumber := 6;
+        Expectedresult := 'Six';
+        // [WHEN] WhenCallingConvertToString 
+        Result := myLibrary.NumberToString(myGivenNumber);
+        // [THEN] ThenItGetsConverted 
+        // Assert.Arequal(Result, Expectedresult);
+    end;
+
+    [Test]
     procedure "GivenA11_WhenCallingConvertToString_ThenItGetsNotConverted"()
     var
         myLibrary: Codeunit Library;

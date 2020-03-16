@@ -21,7 +21,7 @@ codeunit 50111 "LibraryImpl"
             5:
                 Exit('Five');
             6:
-                Exit('Six');
+                Exit('Sex');
             7:
                 Exit('Seven');
             8:

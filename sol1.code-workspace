@@ -6,5 +6,20 @@
 		{
 			"path": "Test-Solution1"
 		}
-	]
+	],
+	"settings": {
+		// AL
+		"al.codeAnalyzers": ["${UICop}","${CodeCop}"],
+		"al.enableCodeActions": true,
+		"al.enableCodeAnalysis": true,
+		// Cloud Ready Solution
+		"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.OnSaveAlFileAction": "Reorganize",
+		// MS Stuff
+		"telemetry.enableTelemetry": false
+	},
+	"extensions": {"recommendations": ["andrzejzwierzchowski.al-code-outline", "martonsagi.al-object-designer","waldo.crs-al-language-extension"]
+	}
 }
