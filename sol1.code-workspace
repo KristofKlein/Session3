@@ -20,6 +20,6 @@
 		// MS Stuff
 		"telemetry.enableTelemetry": false
 	},
-	"extensions": {"recommendations": ["andrzejzwierzchowski.al-code-outline", "martonsagi.al-object-designer","waldo.crs-al-language-extension"]
+	"extensions": {"recommendations": ["andrzejzwierzchowski.al-code-outline", "martonsagi.al-object-designer","waldo.crs-al-language-extension","jamespearson.al-test-runner"]
 	}
 }
