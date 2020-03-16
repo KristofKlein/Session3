@@ -1,3 +1,6 @@
+/// <summary>
+/// Add some supoerpower method to the System
+/// </summary>
 codeunit 50113 "SuperPower Meth"
 {
     procedure SuperPower(var numbers: Integer; var powerby: Integer);
